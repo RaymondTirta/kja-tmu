@@ -37,7 +37,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 170px;
+    width: 160px;
     
 }
 .nav-links{
@@ -68,6 +68,7 @@ nav img{
 .nav-links ul li:hover::after{
    width: 100%; 
 }
+
 .text-box{
     width: 90%;
     color: #189AB4;
@@ -78,12 +79,12 @@ nav img{
     text-align: center;
 }
 .text-box h1{
-    font-size: 50px;
+    font-size: 44px;
     color: #189AB4;
 }
 .text-box p{    
     margin: 10px 0 40px; 
-    font-size:32px;
+    font-size:28px;
     color: #189AB4;
 }
 nav .fa{
@@ -145,15 +146,17 @@ nav .fa{
     text-align: center;
     padding-top: 70px;
     padding-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .service h1{
     margin: auto; 
     font-size: 45px;
     font-weight: 600;
-    color: #05445E;
+    color: #98dce5;
 }
 .service p{
-    color: #05445E;
+    color: #134e69;
     font-size: 14px;
     font-weight: 500;
     line-height: 22px;
@@ -180,11 +183,36 @@ nav .fa{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
+    color: #05445E;
 }
 .service-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
 }
-
+.service-col1{
+    flex-basis: 24%;
+    background: #557b8c;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: : 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.service-col1 h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #e5f0f7;
+}
+.service-col1 p{
+    color: #e5f0f7;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+}
+.service-col1:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
+}
 @media(max-width: 700px){
     .service{
         padding-top: 20px;
@@ -264,14 +292,21 @@ nav .fa{
     text-align: center;
     padding-top: 70px;
     padding-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .whyus h1{
     margin: auto; 
     font-size: 36px;
     font-weight: 600;
+    color: #98dce5;
+}
+.whyus h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
     color: #05445E;
 }
-
 .whyus p{
     color: #05445E;
     font-size: 14px;
@@ -298,9 +333,27 @@ nav .fa{
 
 }
 .whyus-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
 }
+.whyus-col1{
+    flex-basis: 31%;
+    background: #557b8c;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: : 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
 
+}
+.whyus-col1:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
+}
+.whyus-col1 h3{ 
+    color: #e5f0f7;
+}
+.whyus-col1 p{ 
+    color: #e5f0f7;
+}
 @media(max-width: 700px){
     .whyus{
         padding-top: 20px;
@@ -327,7 +380,15 @@ nav .fa{
     width: 90%;
     margin: auto; 
     text-align: center;
-    padding-top: 70px; 
+    padding-top: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.teams h1{ 
+    margin: auto; 
+    font-size: 36px;
+    font-weight: 600;
+    color: #98dce5; 
 }
 .teams-col{
     flex-basis: 32%;
@@ -474,21 +535,25 @@ nav .fa{
     padding: 30px 2px; 
 }
 .aboutus-row img{
-    margin-top: 10%;
-    width: 100%;
+    margin-top: 2%;
+    width: 40%;
+    position: absolute;
 }
 .aboutus-row p{
     margin-top: 1%; 
     text-align: justify;
     padding: 15px 0 25px;
     font-weight: 500;
+    color: #98dce5;
 }
 .aboutus-row h1{
     padding-top: 0;
     font-weight: 600;
+    color: #98dce5;
 }
 .ul_name{
     margin-left: 7.5%;
+    color: #98dce5;
 }
 @media(max-width: 700px){
     .sub-header h1{
@@ -502,6 +567,11 @@ nav .fa{
         font-size: 9px;
         font-weight: 300;
     }
+    .about-us img{
+        margin-top: 2%;
+        width: 100%;
+        position: static;
+    }
 }
 
 
@@ -510,13 +580,14 @@ nav .fa{
     width: 90%;
     margin: auto;
     padding-bottom: 50px;
+    color: #e5f0f7;
 }
 .accountingService-row{
     flex-basis: 48%;
     padding: 30px 2px; 
 }
 .accountingService-row img{
-    margin-top: 5%;
+    margin-top: 1%;
     width: 100%;
 }
 .accountingService-row p{
@@ -550,6 +621,7 @@ nav .fa{
     width: 90%;
     margin: auto;
     padding-bottom: 50px;
+    color: #05374C;
 }
 .taxationService-row{
     flex-basis: 48%;
@@ -584,6 +656,7 @@ nav .fa{
     width: 90%;
     margin: auto;
     padding-bottom: 50px;
+    color: #e5f0f7;
 }
 .siDevelopment-row{
     flex-basis: 48%;
@@ -602,6 +675,8 @@ nav .fa{
     width: 90%;
     margin: auto;
     padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: #05374C;
 }
 .legalStd-row{
     flex-basis: 48%;
@@ -616,6 +691,7 @@ nav .fa{
     padding: 15px 0 25px;
     
 }
+
 @media(max-width: 700px){
     .accountingService h1{
         font-size: 16px;
@@ -630,7 +706,7 @@ nav .fa{
         font-size: 8px;
     }
     .accountingService-row img{
-        margin-top: -20%;
+        margin-top: -10%;
     }
     .taxationService h1{
         font-size: 16px;
@@ -656,6 +732,7 @@ nav .fa{
     .siDevelopment p{
         font-size: 8px;
     }
+    
     .legalStd h1{
         font-size: 16px;
     }
@@ -667,7 +744,7 @@ nav .fa{
     }
     .legalStd p{
         font-size: 8px;
-    }
+    } 
     .ul_name{
         font-size: 8px;
         font-weight: 300;
@@ -678,3 +755,99 @@ nav .fa{
         
     }
 }
+/*------------------ CONTACT US SECTION ---------*/
+.contact-us{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact-parent{
+    width: 80%;
+    background: #fff;
+    display:flex;
+    margin:80px 0;
+    transform: translateX(12.5%);
+}
+.contact-child{
+    display:flex;
+    flex:1;
+    box-shadow:0px 0px 10px -2px rgba(0,0,0,0.75);
+}
+.child1{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/18048.jpg");
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    color:#fff;
+    padding:100px 0;
+}
+.child1 p{
+    padding-left:20%;
+    font-size:20px;
+    text-shadow:0px 0px 2px #000;
+}
+.child1 p span{
+    font-size:16px;
+    color:#9df2fd;
+}
+.child2{
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+.inside-contact{
+    width:80%;
+    margin:10px auto;
+}
+.inside-contact h2{
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:50px;
+}
+.inside-contact h3{
+    text-align:center;
+    font-size:16px;
+    color:#0085e2;
+}
+.inside-contact input, .inside-contact textarea{
+    width:100%;
+    background-color:#eee;
+    border:1px solid rgba(0,0,0,0.48);
+    padding:5px 10px;
+    margin-bottom:20px;
+}
+.inside-contact input[type=submit]{
+    background-color:#000;
+    color:#fff;
+    transition:0.2s;
+    border:2px solid #000;
+    margin:30px 0;
+}
+.inside-contact input[type=submit]:hover{
+    background-color:#fff;
+    color:#000;
+    transition:0.2s;
+}
+@media(max-width:700px){
+    .contact-parent{
+        display:block;
+        width:80%;
+    }
+    .child1{
+        display:none;
+    }
+    .child2{
+        background-image:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url("images/18048.jpg");
+        background-size:cover;
+    }
+    .inside-contact input, .inside-contact textarea{
+        background-color:#fff;
+        width: 80%;
+    }
+}
+
+
+
